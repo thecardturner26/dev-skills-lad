@@ -11,6 +11,9 @@ $('h1')
 $('table')
     .addClass('text-center');
 
-$('div').css({'alignContent': 'center'})
+$('div').css({'alignContent': 'center'});
     
 
+$(function(){
+    
+ });
