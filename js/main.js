@@ -1,4 +1,17 @@
-<script
-src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"></script>
+
+
+$('td').css({color: '#ffac30'})
+
+$('h1').css({'background-color': '#6fe394'})
+
+$('h1')
+    .addClass('text-center');
+
+
+$('table')
+    .addClass('text-center');
+
+$('div').css({'alignContent': 'center'})
+    
+
+$('.btn').css({'align-content': 'right'})
