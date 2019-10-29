@@ -14,4 +14,3 @@ $('table')
 $('div').css({'alignContent': 'center'})
     
 
-$('.btn').css({'align-content': 'right'})
