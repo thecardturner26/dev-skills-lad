@@ -13,7 +13,37 @@ $('table')
 
 $('div').css({'alignContent': 'center'});
     
+$('#devlist').css({'alignContent': 'center'});
 
-$(function(){
-    
- });
+$('li').css('text-center')
+
+var inp;
+
+$('#btn').click(function() {
+inp = $('#textfield').val();
+$('ul').append('<li><button id="red" class = "btn btn-xs btn-danger">X</button>    ' + inp + '</li>')
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).on('click', 'li', function(){
+    $(this).remove();
+})
